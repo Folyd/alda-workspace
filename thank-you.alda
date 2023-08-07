@@ -1,0 +1,15 @@
+(tempo! 80)
+
+midi-acoustic-grand-piano:
+    V1:
+        (f)
+        o4
+        r8 f8 g a | >c <a a4 | g16 g16 f8 g4 | f8 d f g | a2 |
+        f8 d f4 | c16 c16 g8 f4 | a8 g g f | g4 f8 g |
+        >c8 <a a4 | g16 g16 f8 g4 | f8 d f >c | <a2 |
+        f8 d f4 | c16 c16 g8 f4 | a8 g f d | f2 |
+
+    V4:
+        (pp)
+        o3
+        r2 | [c2/a | c/g | c/f | c/a | c/f | c/g | c/a | c/g |] * 2

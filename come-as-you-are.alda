@@ -1,0 +1,18 @@
+
+(tempo! 100)
+
+midi-percussion:
+  V1: # Kick
+  (f)
+  r1
+  o2 [c8 r r r c c r c | c c r c r c r c |] * 4
+
+  V2: # Snare
+  (f)
+  o2 r2 r8 b a f
+  o2 [r4 e r e | r e r e] * 4
+
+  V3: # Hit-hat
+  (p)
+  r1
+  [o3 c+8 < f+ * 7 | f+ * 8] * 4

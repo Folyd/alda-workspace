@@ -1,0 +1,14 @@
+midi-steel-drums:
+    # @section-a
+    V0:
+    (f)
+    (key-signature "f+")
+    o4 b4/>d {<b >d <b >d <b >d <b >d <b >d <b >d <b}2. |
+    o5 d2 r8 c <b >c |
+    o4 g4/b d/g c8/e c/e r <a/>d |
+    r1 |
+    o4 r8 g b >d g f16 e d8 e |
+    d e c <b a g a >c | 
+    <b >c d <b a g r d |
+    (mp)
+    {o3 a8 >d <a >d <a >d <a >d <a >d <a >d <a >d2}1   

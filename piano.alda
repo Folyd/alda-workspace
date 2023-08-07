@@ -1,0 +1,50 @@
+(tempo! 160)
+(key-signature! '(e flat major))
+
+melody = [
+    o5
+    c4/g e (fff) c/g r
+    e/b g (fff) e/b r
+    c/a e (fff) c/a e
+]
+
+midi-acoustic-grand-piano:
+    (ff)
+    V1:
+        [
+          melody
+          [<b/>f d <b/>f r] '1
+          [<b/>f <b/>f <b/>f r] '2
+        ] * 2
+        %part2
+
+    V2:
+        (p)
+        [
+        o3
+        c/g4 e2.
+        e/b4 g2.
+        c/a4 e2.
+        <b/>f4 d2.
+        ] * 2
+
+midi-acoustic-grand-piano:
+    @part2
+    V1:
+        (ff)
+        [
+          melody
+          [<b/>f d <b/>f r] '1
+          [<b/>f <b/>f <b/>f r] '2
+        ] * 2
+
+
+    V2:
+        (mp)
+        [
+        o3
+        c4/g e c/g e
+        e/b g e/b g
+        c/a e c/a e
+        <b/>f d <b/>f d
+        ] * 2
